@@ -1,1 +1,3 @@
-Hello Pat from public/index.php file
+<?php
+
+require_once '../app/bootstrap.php';
