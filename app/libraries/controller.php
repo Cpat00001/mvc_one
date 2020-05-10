@@ -7,7 +7,7 @@
      //Load model
      public function model($model){
          //require model file
-         require_once '..app/models/' . $model . '.php';
+         require_once '../app/models/' . $model . '.php';
 
          //instantiate model
          return new $model();
